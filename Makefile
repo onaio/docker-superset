@@ -1,8 +1,8 @@
 REPO                      := onaio/superset
 STAGES                    := final
-SUPERSET_VERSION          := 0.37.2
+SUPERSET_VERSION          := 0.38.0
 SUPERSET_KETCHUP_VERSION  := v0.2.1
-UPSTREAM_SUPERSET_VERSION := 0.37.2
+UPSTREAM_SUPERSET_VERSION := 0.38.0
 
 .PHONY: default clean clobber latest push
 
