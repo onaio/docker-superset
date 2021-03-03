@@ -1,5 +1,3 @@
-fbprophet
-psycopg2==2.8.6
 sentry-sdk[flask]
 uwsgi
 uwsgi-tools
