@@ -1,6 +1,8 @@
 REPO                      := onaio/superset
-STAGES                    := final
-SUPERSET_VERSION          := 1.0.1
+STAGES                    := build dist final
+NODE_VERSION              := 12
+PYTHON_VERSION            := 3.8
+SUPERSET_VERSION          := 1.0.1-kenya-rc5
 SUPERSET_KETCHUP_VERSION  := v0.2.1
 UPSTREAM_SUPERSET_VERSION := 1.0.1
 
