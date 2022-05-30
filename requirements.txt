@@ -1,3 +1,4 @@
 sentry-sdk[flask]
 uwsgi
 uwsgi-tools
+MarkupSafe==2.0.1
