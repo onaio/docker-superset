@@ -1,4 +1,6 @@
 sentry-sdk[flask]
 uwsgi
 uwsgi-tools
+# MarkupSafe needs to be pinned to version used by superset itself otherwise functionality breaks
+# reference https://github.com/apache/superset/blob/9bab31a55f5345cdbc1fefdda160e000b163ece0/requirements/base.txt#L151
 MarkupSafe==2.1.1
